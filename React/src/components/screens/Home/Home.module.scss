@@ -1,0 +1,38 @@
+.main {
+    height: 50%;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    background: #333133;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.title {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.inpt {
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    background: red;
+    color: white;
+    height: 30px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    background: #00ff08;
+    color: black;
+}
