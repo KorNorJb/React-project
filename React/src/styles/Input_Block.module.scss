@@ -1,6 +1,6 @@
 .main {
     height: 50%;
-    width: 500px;
+    width: 40em;
     border-radius: 10px;
     text-align: center;
     background: #333133;
@@ -18,7 +18,7 @@
     height: 30px;
     padding-left: 10px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .btn {
@@ -27,12 +27,11 @@
     height: 30px;
     width: 50px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-left: 20px;
     transition: all .5s ease;
 }
 
 .btn:hover {
-    background: #00ff08;
-    color: black;
+    background: rgb(202, 0, 0);
 }

@@ -1,0 +1,70 @@
+.list {
+    padding: 50px;
+    background: #333133;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.list__block {
+    width: 70%;
+    background: #252325;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 3px #333133 solid;
+    border-radius: 6px;
+}
+
+.list__btns {
+    display: flex;
+    gap: 5px;
+
+}
+
+.btn {
+    color: wheat;
+    padding: 5px 10px;
+    background: green;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete {
+    background: red;
+}
+
+.edit {
+    background: yellow;
+    color: #000;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.done__btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
